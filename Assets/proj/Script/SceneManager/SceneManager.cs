@@ -83,6 +83,36 @@ namespace cavallaro.tesi.smartedifice
             reader.ReadToFollowing("sceneFile");
             reader.MoveToFirstAttribute();
             State.sceneFile = reader.Value;
+        }
+
+        void Start()
+        {
+            InvokeRepeating("periodicUpdate", 1, 90);
+        }
+
+        void periodicUpdate()
+        {
+            getAll();
+        }
+
+        private void getAll()
+        {
+            string path = State.requestPath + "?then=get all";
+
+            try
+            {
+                string resp = Request.newRequest(path, "POST");
+                AnalyzeResponse.analyze(resp);
+            }
+            catch (Exception e)
+            {
+                PopupMessage pop = GameObject.FindObjectOfType<PopupMessage>();
+                if (pop != null)
+                {
+                    pop.showMessage(e.Message);
+                    return;
+                }
+            }
 
         }
 

@@ -38,19 +38,9 @@ namespace cavallaro.tesi.smartedifice
             light.renderMode = LightRenderMode.ForcePixel;
             smartLight.GUID = GUID;
 
-            string[] elements = Position.Split(new char[] { ',' });
-            Vector3 position = new Vector3(float.Parse(elements[0]), float.Parse(elements[1]), float.Parse(elements[2]));
-
-            elements = Dimension.Split(new char[] { ',' });
-            Vector3 dimension = new Vector3(float.Parse(elements[0]), float.Parse(elements[1]), float.Parse(elements[2]));
-
-            elements = Rotation.Split(new char[] { ',' });
-            Vector3 rot = new Vector3(float.Parse(elements[0]), float.Parse(elements[1]), float.Parse(elements[2]));
-            Quaternion rotation = Quaternion.Euler(rot);
-
-            light.transform.position = position;
-            light.transform.rotation = rotation;
-            light.transform.localScale = dimension;
+            light.transform.position = parseVector3(Position);
+            light.transform.rotation = Quaternion.Euler(parseVector3(Rotation));
+            light.transform.localScale = parseVector3(Dimension);
 
         }
     }

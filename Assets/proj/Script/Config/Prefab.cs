@@ -18,27 +18,16 @@ namespace cavallaro.tesi.smartedifice
                 element = GameObject.Instantiate(Resources.Load(this.Resource)) as GameObject;
                 element.name = this.Name;
 
-                string[] elements = Position.Split(new char[] { ',' });
-                Vector3 position = new Vector3(float.Parse(elements[0]), float.Parse(elements[1]), float.Parse(elements[2]));
-
-                elements = Dimension.Split(new char[] { ',' });
-                Vector3 dimension = new Vector3(float.Parse(elements[0]), float.Parse(elements[1]), float.Parse(elements[2]));
-
-                elements = Rotation.Split(new char[] { ',' });
-                Vector3 rot = new Vector3(float.Parse(elements[0]), float.Parse(elements[1]), float.Parse(elements[2]));
-                Quaternion rotation = Quaternion.Euler(rot);
-
-                element.transform.position = position;
-                element.transform.rotation = rotation;
-                element.transform.localScale = dimension;
-            }catch(Exception)
-            {
-                string msg = string.Format("Impossibile insantiate: {0}. Required prefab: {1}", this.Name, this.Resource);
-                Debug.LogError(msg);
+                element.transform.position = parseVector3(Position);
+                element.transform.rotation = Quaternion.Euler(parseVector3(Rotation));
+                element.transform.localScale = parseVector3(Dimension);
+            }catch(Exception){
+                Debug.LogError(string.Format("Impossibile insantiate: {0}. Required prefab: {1}",
+                    this.Name, this.Resource));
             }
 
             return element;
-
         }
+
     }
 }
