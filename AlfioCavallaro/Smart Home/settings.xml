@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+
+	<requestPath uri="http://localhost:3000/requests" />
+	<configPath  uri="http://localhost:3000/config"  />
+	<sceneFile 	 file="scene.xml" />
+
+</Settings>
+

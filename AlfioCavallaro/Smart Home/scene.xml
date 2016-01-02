@@ -53,16 +53,16 @@
 	<Item Name="Tetto" Position="-5.13,5,0" Rotation="0,0,90" Dimension="0.2249195,11.98062,10.85972" Resource="Tetto" />
   </Prefab>
   <SmartObject>
-    <Item Name="speaker" Position="-6.79,0.35,3.4" 		Rotation="0,270,0"  Dimension="0.8920944,0.9397066,0.7836711" Resource="speaker" GUID="ciao1" />
-    <Item Name="LG_TV" 	 Position="-11.55,2.09,-1.45" 	Rotation="90,90,0" Dimension="-0.04790901,-0.04790903,-0.04790903" Resource="LG_TV" GUID="ciao2" />
-    <Item Name="clima" 	 Position="-12.7,4.06,-9.78" 	Rotation="90,90,0" Dimension="-0.002389403,-0.002389403,-0.002389403" Resource="clima" GUID="cio3" />
-    <Item Name="clima" 	 Position="4.41,3.57,8.9135" 	Rotation="90,270,0" Dimension="-0.002389403,-0.002389403,-0.002389403" Resource="clima" GUID="29EBD4E6-54B7-4EFA-B843-ED57BEFA4669" />
-    <Item Name="LG_TV" 	 Position="-2.36,0.96,4.89" 	Rotation="90,0,0" 		 Dimension="-0.09756631,-0.0975663,-0.09756632" Resource="LG_TV" GUID="FDC74BA9-18CB-42D3-B6C0-52446422CE03" />
-    <Item Name="Fan" 	 Position="-0.22,1.71,9.119"    Rotation="0,50,0" 		 Dimension="0.59,0.59,0.59" Resource="Fan" GUID="DD3ACED8-B6F0-4A20-9A9B-CA5972FC9086" />
-	<Item Name="clima" 	 Position="-4.31,4.06,-2.15" 	Rotation="90,270,0" Dimension="-0.002389403,-0.002389403,-0.002389403" Resource="clima" GUID="ciao4" />
-    <Item Name="heater"  Position="2.96,0.35,-1.77" 	Rotation="270,180,0" Dimension="0.001686219,0.001686219,0.001686219" Resource="heater" GUID="C5A498CD-DC61-41E7-BD01-C3680AB83D12" />
-    <Item Name="clima" 	 Position="-11.9152,3.83,1.96" 	Rotation="90,90,0"  Dimension="-0.002389403,-0.002389403,-0.002389403" Resource="clima" GUID="ciao5" />
-    <Item Name="LG_TV" 	 Position="3.53,1.46,-2.18" 	Rotation="90,139,0" Dimension="-0.05624397,-0.05624397,-0.05624399" Resource="LG_TV" GUID="FF77833D-8E52-460D-835D-29ABD1AD7DF9" />
-    <Item Name="speaker" Position="-1.944,0.36,6.13" 	Rotation="0,90,0" 		 Dimension="2.08253,1.242361,1.242361" Resource="speaker" GUID="8AE2FEB4-7D9F-4133-BCA9-9AF448B2E195" />
+    <Item Name="speaker" Position="-6.79,0.35,3.4" 		Rotation="0,270.0001,0" Dimension="0.8920944,0.9397066,0.7836711" Resource="speaker" GUID="ciao1" />
+    <Item Name="LG_TV" 	 Position="-11.55,2.09,-1.45" 	Rotation="90,90.00002,0" Dimension="-0.04790901,-0.04790903,-0.04790903" Resource="LG_TV" GUID="ciao2" />
+    <Item Name="clima" 	 Position="-12.7,4.06,-9.78" 	Rotation="90,90.00002,0" Dimension="-0.002389403,-0.002389403,-0.002389403" Resource="clima" GUID="cio3" />
+    <Item Name="clima" 	 Position="4.41,3.57,8.9135" 	Rotation="90,270.0001,0" Dimension="-0.002389403,-0.002389403,-0.002389403" Resource="clima" GUID="29EBD4E6-54B7-4EFA-B843-ED57BEFA4669" />
+    <Item Name="LG_TV" 	 Position="-2.36,0.96,4.89" 	Rotation="90,0,0" Dimension="-0.09756631,-0.0975663,-0.09756632" Resource="LG_TV" GUID="FDC74BA9-18CB-42D3-B6C0-52446422CE03" />
+    <Item Name="Fan" 	 Position="-0.2201,1.7099,9.119" Rotation="0,50,0" Dimension="0.59,0.59,0.59" Resource="Fan" GUID="DD3ACED8-B6F0-4A20-9A9B-CA5972FC9086" />
+	<Item Name="clima" 	 Position="-4.31,4.06,-2.15" 	Rotation="90,270.0001,0" Dimension="-0.002389403,-0.002389403,-0.002389403" Resource="clima" GUID="ciao4" />
+    <Item Name="heater"  Position="2.96,0.35,-1.77" 	Rotation="270,179.5798,0" Dimension="0.001686219,0.001686219,0.001686219" Resource="heater" GUID="C5A498CD-DC61-41E7-BD01-C3680AB83D12" />
+    <Item Name="clima" 	 Position="-11.9152,3.83,1.96" 	Rotation="90,90.00002,0" Dimension="-0.002389403,-0.002389403,-0.002389403" Resource="clima" GUID="ciao5" />
+    <Item Name="LG_TV" 	 Position="3.53,1.46,-2.18" 	Rotation="90,139.6584,0" Dimension="-0.05624397,-0.05624397,-0.05624399" Resource="LG_TV" GUID="FF77833D-8E52-460D-835D-29ABD1AD7DF9" />
+    <Item Name="speaker" Position="-1.944,0.36,6.13" 	Rotation="0,90.00001,0" Dimension="2.08253,1.242361,1.242361" Resource="speaker" GUID="8AE2FEB4-7D9F-4133-BCA9-9AF448B2E195" />
   </SmartObject>
 </Scene>
